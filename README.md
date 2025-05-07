@@ -3,9 +3,10 @@ Defective Product Detection Using User Reviews from Amazon
 
 In this project, we analyzed Amazon verified reviews to develop a system for detecting potentially defective products. We focused on two product categories — Musical Instruments and Appliances, which were selected for their higher likelihood of quality issues. By processing a large volume of review text with PySpark, we aimed to build a scalable and efficient workflow that could identify defective products early, helping both consumers and vendors improve product satisfaction and quality control.
 
-Main Objectives: Our main objective was to create a scalable method to identify potentially defective products through textual review analysis. We focused on cleaning and preparing the data for analysis, developing a cosine similarity scoring approach to flag reviews indicating defects, and evaluating product-level patterns across two distinct product categories. Using Spark allowed us to efficiently manage large-scale processing and set a foundation for potential expansion to other categories.
+## Main Objectives:
+Our main objective was to create a scalable method to identify potentially defective products through textual review analysis. We focused on cleaning and preparing the data for analysis, developing a cosine similarity scoring approach to flag reviews indicating defects, and evaluating product-level patterns across two distinct product categories. Using Spark allowed us to efficiently manage large-scale processing and set a foundation for potential expansion to other categories.
 
-Methodology and Key Findings:
+## Methodology and Key Findings:
 
 Defect Centroid Creation: We generated a defect centroid by embedding a manually selected list of defect-related keywords and calculated cosine similarity between each review and this centroid.
 
